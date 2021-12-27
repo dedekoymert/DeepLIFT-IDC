@@ -8,13 +8,7 @@ from deeplift.util import compile_func
 import numpy as np
 from keras import backend as K
 from keras.datasets import mnist
-import deeplift
-from deeplift.layers import NonlinearMxtsMode
-from deeplift.conversion import kerasapi_conversion as kc
-from deeplift.util import compile_func
 import numpy as np
-from keras import backend as K
-import deeplift
 from deeplift.util import get_integrated_gradients_function
 from collections import OrderedDict
 import time
