@@ -1,3 +1,6 @@
 env
-imp_scores
-method_to_task_to_scores
+experiments
+experiments/imp_scores_keras2_mnist_cnn_allconv
+experiments/keras2_mnist_cnn_allconv
+__pycache__
+.DS_Store

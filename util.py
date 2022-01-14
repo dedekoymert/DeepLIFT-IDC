@@ -15,6 +15,11 @@ def get_layer_outs_new(model, inputs, skip=[]):
                              outputs=[layer.output for index, layer in enumerate(model.layers)])
     return evaluater.predict(inputs)
 
+def get_layer_outs_new_lenet(model, inputs, skip=[]):
+    evaluater = models.Model(inputs=model.input,
+                             outputs=[layer.output for index, layer in enumerate(model.layers)][1:])
+    return evaluater.predict(inputs)
+
 
 def quantizeSilhouette(out_vectors, relevant_neurons):
     start = time.time()
