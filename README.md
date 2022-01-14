@@ -11,7 +11,7 @@ Install deeplift
 * pip install deeplift
 
 Install deeplift model
-* wget https://raw.githubusercontent.com/AvantiShri/model_storage/d65951145fab2ad5de91b3c5f1bca7c378fabf93/deeplift/mnist/keras2_mnist_cnn_allconv.h5 -O keras2_mnist_cnn_allconv.h5
+* wget https://raw.githubusercontent.com/AvantiShri/model_storage/d65951145fab2ad5de91b3c5f1bca7c378fabf93/deeplift/mnist/keras2_mnist_cnn_allconv.h5 -O model/keras2_mnist_cnn_allconv.h5
 
 
 ### Run ###
