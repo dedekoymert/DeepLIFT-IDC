@@ -1,6 +1,6 @@
 # DeepLIFT-IDC #
 
-### Prequisite ###
+## Prequisite ##
 
 * Python = 3.7.12
 * tensorflow = 1.15.2
@@ -14,7 +14,7 @@ Install deeplift model
 * wget https://raw.githubusercontent.com/AvantiShri/model_storage/d65951145fab2ad5de91b3c5f1bca7c378fabf93/deeplift/mnist/keras2_mnist_cnn_allconv.h5 -O model/keras2_mnist_cnn_allconv.h5
 
 
-### Run ###
+## Run ##
 
 python run.py
 
