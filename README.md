@@ -18,6 +18,6 @@ Install deeplift model
 
 python run.py
 
-* change runing model change line 163
+* change runing model line 163
 * change most important neuron number line 164
 * not to calculate DeepLIFT scores change line 165
